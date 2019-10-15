@@ -11,13 +11,17 @@ NumberOfImages = 100
 def DrawLesion(x,y,radius,lesion):
 
     if lesion == "1":
-        color = (255,0,0)
+        color = (0,0,255)
+        name = string(blue)
     elif lesion == "2":
         color = (0,255,0)
+        name = string(green)
     elif lesion == "3":
-        color = (0,0,255)
+        color = (255,0,0)
+        name = string(red)
     elif lesion == "4":
         color = (122,122,122)
+        name = string(grey)
 
     #Draw circle
     center=(x,y)
